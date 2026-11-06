@@ -16,6 +16,24 @@ object-fit:cover;}
     </style>
     <div class="profile"><img src="msh.png" alt="Profile Image"></div>
 <header>
+    <div class="marquee">
+  <h1>meshack okeyo</h1>
+</div>
+
+<style>
+  .marquee {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .marquee h1 {
+    display: inline-block;
+    animation: moveRight 10s linear infinite;
+  }
+  @keyframes moveRight {
+    from { transform: translateX(-100%); }
+    to   { transform: translateX(100vw); }
+  }
+</style>
     <h1>Meshack Okeyo</h1>
     <p>Information Technology Student</p>
 
